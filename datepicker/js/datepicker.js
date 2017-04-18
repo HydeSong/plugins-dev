@@ -1,7 +1,7 @@
-(function () {
+(function() {
     var datepicker = {};
 
-    datepicker.getMonthData = function (year, month) {
+    datepicker.getMonthData = function(year, month) {
         var ret = [];
 
         if (!year || !month) {
